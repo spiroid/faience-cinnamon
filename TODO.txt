@@ -1,0 +1,17 @@
+Menu: 
+ * try to get the same result as the gnome shell dash dock for the favorites menu
+
+Overview: 
+ * Add workspace icon effect on hover change the bg color
+ * Close workspace and window icon effect on hover
+ 
+Notification:
+ * round border at the bottom of the box
+
+Panel:
+ * rework the panel button look ?
+ 
+Add applets support:
+ * sound applet
+ * workspace switcher applet
+   ... a lot more !
