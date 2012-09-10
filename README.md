@@ -12,14 +12,12 @@ Licence: GPLv3
 ## Installation
 
 1. Recommanded elements
-
    * **Icons**: [Faience](http://tiheum.deviantart.com/art/Faience-icon-theme-255099649 "Faience icon set") icon set
    * **GTK theme**: [Zukitwo](http://lassekongo83.deviantart.com/art/Zukitwo-203936861 "Zukitwo GTK 3 Theme") by lassekongo83
    * **Wallpaper**: [Blue and Green](http://zim2687.deviantart.com/art/Blue-and-Green-206584536 "Blue and Green wallpapeer") by Zim2687
    * **Font**: [Aurulent Sans](http://www.dafont.com/fr/aurulent-sans.font "Aurulent Sans font"). To install Aurulent Sans, download and extract the zip file and put all the OTF files in your ~/.fonts folder.
 
 2. Instructions
-
    * Create a 'Faience' directory under your  ~/.themes directory.
 
    * Download and extract the zip file from github and move the extracted directory in the 'Faience' folder inside your ~/.themes directory.  
@@ -33,15 +31,12 @@ Licence: GPLv3
    * Open the Cinnamon Settings application and go to the theme section.
    * Select Faience in the list of available themes.
 
-
 ## Cinnamon specific elements
 
 1. Main Menu
-
    *Styled elements*: favorite menu on the left, search box and the category and application list
 
 2. Overview screen
-
    * Workspace view <CTRL + ALT + Up Arrow>
 
    A list of all available workspaces and foreach workspace the user can see a preview of opened windows.  
