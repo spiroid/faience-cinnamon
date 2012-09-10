@@ -1,0 +1,235 @@
+/* ===================================================================
+ * Date applet 
+ * ===================================================================*/
+#calendarArea {
+    /* this is the width of the entire popup */
+	padding: 0 4px; 
+}
+
+.calendar-vertical-separator {
+    -stipple-width: 1px;
+    -stipple-color: #505050;
+    width: 1.5em;
+}
+
+#calendarPopup {
+    border-radius: 5px;
+    border: 1px solid rgba(128,128,128,0.45);
+    color: white;
+}
+
+#calendarPopup .calendar {
+    padding: 10px;
+}
+
+#calendarArea .popup-menu-item {
+    border-radius: 4px;
+}
+
+/* This class applies on the calendar zone including the month and day chooser
+   day header, and the calendar grid itself */ 
+.calendar {
+	padding: .4em 1.75em;
+	spacing-rows: 0px;
+	spacing-columns: 0px;
+}
+.calendar-month-label {
+    color: #999999;
+    font-size: 7.5pt;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+.calendar-change-month-back {
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/calendar-arrow-left.svg");
+    border-radius: 3px;
+    padding: 2px;
+    border: 1px solid transparent;
+}
+
+.calendar-change-month-back:rtl {
+	background-image: url("../img/calendar-arrow-right.svg");
+}
+
+.calendar-change-month-forward {
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/calendar-arrow-right.svg");
+    border-radius: 3px;
+    padding: 2px;
+    border: 1px solid transparent;
+}
+
+.calendar-change-month-forward:rtl {
+    background-image: url("../img/calendar-arrow-left.svg");
+}
+
+.calendar-change-month-back:hover, .calendar-change-month-forward:hover {
+    border: rgba(255,255,255,0.25) solid 1px;
+    border-radius: 3px;
+    background-color: rgba(255,255,255,0.10);   
+    transition-duration: 175;
+}
+.calendar-change-month-back:active, .calendar-change-month-forward:active {
+}
+
+
+.datemenu-date-label {
+    padding: .4em 1.75em;
+    font-size: 10.5pt;
+    color: #cccccc;
+    font-weight: bold;
+    text-align: center;
+}
+
+.calendar-day-base {
+    font-size: 7.5pt;
+    text-align: center;
+    width: 3.2em;
+    height: 3.4em;
+}
+
+.calendar-day-base:hover {
+    background-color: rgba(255,255,255,0.4);
+}
+
+.calendar-day-base:active {
+    background-color: rgba(195,195,195,0.15);
+}
+
+.calendar-day-heading {
+    padding-top: 21px;
+    color: #777777;
+    font-weight: bold;
+}
+
+.calendar-week-number {
+    color: #777777;
+    font-weight: bold;
+}
+
+
+/* Hack used in lieu of border-collapse - see calendar.js */
+.calendar-day:ltr {
+	border: 1px solid #333333;
+	color: #888888;
+	border-top-width: 0;
+	border-left-width: 0;
+}
+.calendar-day-top:ltr {
+	border-top-width: 1px;
+}
+.calendar-day-left:ltr {
+	border-left-width: 1px;
+}
+
+.calendar-day:rtl {
+	border: 1px solid #333333;
+	color: #888888;
+	border-top-width: 0;
+	border-right-width: 0;
+}
+.calendar-day-top:rtl {
+	border-top-width: 1px;
+}
+.calendar-day-left:rtl {
+	border-right-width: 1px;
+}
+
+.calendar-work-day {
+}
+
+.calendar-nonwork-day {
+    background-color: rgba(128, 128, 128, .1);
+}
+
+.calendar-today {
+	background-image: url("../img/calendar-today.svg");
+	text-shadow: black 0px 2px 2px;
+	color: #ffffff;
+	font-weight: bold;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.6);
+    border: solid 1px rgba(255,255,255,0.2);
+}
+
+.calendar-other-month-day {
+    color: #333333;
+}
+
+.calendar-day-with-events {
+    font-weight: bold;
+    color: #cccccc;
+}
+
+.events-header-vbox {
+    spacing: 6pt;
+    padding-right: 1.75em;
+}
+
+.events-header-vbox:rtl {
+    padding-right: 0em;
+    padding-left: 1.75em;
+}
+
+.events-header-hbox {
+    padding: 0.3em;
+}
+
+.events-day-header {
+    font-size: 9pt;
+    font-weight: bold;
+    color: rgba(153, 153, 153, 1.0);
+    padding-left: 0.3em;
+}
+
+.events-day-header:rtl {
+    padding-left: 0em;
+    padding-right: 0.3em;
+}
+
+.events-day-dayname {
+    font-size: 9pt;
+    color: rgba(153, 153, 153, 1.0);
+    text-align: left;
+}
+
+.events-day-dayname:rtl {
+    text-align: right;
+}
+
+.events-day-time {
+    font-size: 9pt;
+    color: #fff;
+    text-align: right;
+}
+
+.events-day-time:rtl {
+    text-align: left;
+}
+
+.events-day-task {
+    font-size: 9pt;
+    color: rgba(153, 153, 153, 1.0);
+}
+
+.events-day-name-box {
+    min-width: 15pt;
+}
+
+.events-time-box {
+    min-width: 53pt;
+    padding-right: 6pt;
+}
+
+.events-time-box:rtl {
+    padding-right: 0px;
+    padding-left: 6pt;
+}
+
+.events-event-box {
+}
+
+.url-highlighter {
+    link-color: #ccccff;
+}

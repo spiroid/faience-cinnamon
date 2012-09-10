@@ -1,0 +1,58 @@
+/* ===================================================================
+ * ViewSelector 
+ * ===================================================================*/
+#viewSelector {
+    spacing: 1.5em;
+    font-size: 10pt;
+}
+#viewSelectorTabBar {
+    padding: 1em;
+}
+
+.view-tab-title {
+    background-gradient-direction: vertical;
+    background-gradient-end: rgba(255,255,255,0.05);
+    background-gradient-start: rgba(255,255,255,0.2);
+    border: 1px solid rgba(0,0,0,0.2);
+    border-right: 0px; 
+    border-radius: 0px;
+    box-shadow: inset 0px 1px 3px 0px rgba(255,255,255,0.3);
+    color: rgba(255,255,255,0.7);
+    font: 10pt;
+    font-weight: bold; 
+    padding: 4px 20px;
+    transition-duration: 200;
+}
+
+.view-tab-title:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.view-tab-title:last-child {
+    border-radius: 0 4px 4px 0;
+    border-right: 1px;
+}
+
+.view-tab-title:hover {
+    background-gradient-end: rgba(255,255,255,0.1);
+    background-gradient-start: rgba(255,255,255,0.30);
+    color: #fff;
+    text-shadow: rgba(255,255,255,0.9) 0px 1px 2px;     
+}
+
+.view-tab-title:selected {
+    background-gradient-direction: vertical;
+    background-gradient-end: rgba(255,255,255,0.25);
+    background-gradient-start: rgba(255,255,255,0.15);
+    border: 1px solid rgba(0,0,0,0.2);
+    border-right: 0px;
+    box-shadow: inset 0px 1px 4px 1px rgba(0,0,0,0.3);
+    color: #fff;
+    text-shadow: black 0px 1px 2px;
+}
+.view-tab-title:first-child:selected {
+}
+
+.view-tab-title:last-child:selected {
+    border-right: 1px;
+}

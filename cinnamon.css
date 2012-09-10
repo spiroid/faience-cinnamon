@@ -1,0 +1,55 @@
+/* Copyright 2011, Matthieu James, aka Tihum: http://tiheum.deviantart.com/
+ * Copyright 2012, Paul Lange, aka Erabong: http://erabong.deviantart.com/
+ * Copyright 2012, Jonathan Dray, aka Spiroid <jonathan.dray@gmail.com>
+ *
+ * Adapted from Faience Tihum's gnome shell 
+ * and from Erbong's gnome 3.4 version 
+ * by Spiroid
+ *
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms and conditions of the GNU General Public License,
+ * version 3, as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+ * more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software Foundation,
+ * Inc., 51 Franklin St - Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/* ################################################################### *
+ * Cinnamon / Gnome shell common Section                               *
+ * ################################################################### */
+@import url("css/main.css");
+@import url("css/popup-menu.css");
+@import url("css/panel.css");
+@import url("css/buttons.css");
+@import url("css/overview.css");
+@import url("css/calendar.css");
+@import url("css/app-switcher.css");
+@import url("css/modal.css");
+@import url("css/run-dialog.css");
+@import url("css/polkit-dialog.css");
+@import url("css/magnifier.css");
+@import url("css/looking-glass.css");
+@import url("css/notification.css");
+@import url("css/hotplug.css");
+@import url("css/keyboard.css");
+@import url("css/view-selector.css");
+
+/* ################################################################### *
+ * Cinnamon Specific Section                                           * 
+ * ################################################################### */
+@import url("css/menu.css");
+@import url("css/overview-cinnamon.css");
+/* TODO : style the next items */
+@import url("css/sound-applet.css");
+@import url("css/workspace-switch-applet.css");
+@import url("css/notification-applet.css");
+@import url("css/applet.css");
+@import url("css/panel-launchers.css");
+@import url("css/window-list.css");
+@import url("css/workspace-osd.css");

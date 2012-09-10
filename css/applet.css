@@ -1,0 +1,32 @@
+/* ===================================================================
+ * Applets (applet.js) 
+ * ===================================================================*/
+.applet-box {
+	padding-left: 3px;
+    padding-right: 3px;	
+	color: #ccc;
+	text-shadow: black 0px 0px 2px;
+	transition-duration: 300;
+	min-width: 1em;
+	
+}
+.applet-box:hover {
+	color: #fff;
+}
+.applet-label {	
+	font-weight: bold;
+	color: #ccc;		
+}
+.applet-label:hover,
+.applet-box:hover > .applet-label {
+	color: #fff;
+	text-shadow: white 0px 0px 5px;
+}
+.applet-icon {
+	color: #ccc;
+}
+.applet-icon:hover,
+.applet-box:hover > .applet-icon {
+	color: #fff;
+	icon-shadow: white 0px 0px 3px;
+}

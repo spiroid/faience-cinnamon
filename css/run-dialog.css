@@ -1,0 +1,42 @@
+/* ===================================================================
+ * Run dialog (ALT + F2)
+ * ===================================================================*/
+/* Label of the run box = run command label */
+.run-dialog-label,
+.run-dialog-error-label {
+	font-size: 9.5pt;
+	color: white;
+	padding-bottom: 5px;
+}
+/* Error message with icon when the command is not found */
+.run-dialog-error-box {
+    padding-top: 21px;
+    spacing: 5px;
+}
+/* Run dialog text input */
+.run-dialog-entry {
+    font-size: 10.5pt;
+    font-weight: bold;
+    width: 23em;
+	height: 1.5em;     
+    color: white;
+    padding: 4px;
+	selection-background-color: white;
+	selected-color: black;
+	border: 1px solid #333333;
+	background-gradient-direction: vertical;
+	background-gradient-start: rgba(85,85,85,0.2);
+	background-gradient-end: rgba(85,85,85,0.4);	
+   	border-radius: 3px;
+}
+/* Global run dialog inner paddings */
+.run-dialog {
+    border-radius: 6px;
+    padding-right: 27px;
+    padding-left: 27px;
+    padding-bottom: 21px;
+    padding-top: 21px;
+}
+.lightbox {
+	background-color: rgba(0, 0, 0, 0.4);
+}

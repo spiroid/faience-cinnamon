@@ -1,0 +1,171 @@
+/* ===================================================================
+ * Menu (menu.js)
+ * ===================================================================*/
+/* Main menu title */
+.menu-favorites-box {
+	width: 50px;
+	margin: auto;
+	padding: 10px;
+	border: 1px solid #333333;
+	border-radius: 3px;
+	background-gradient-direction: vertical;
+	background-gradient-start: rgba(85,85,85,0.3);
+	background-gradient-end: rgba(85,85,85,0.2);
+	transition-duration: 100;
+}
+.menu-favorites-button {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.menu-favorites-button:hover {
+	color: white;
+	background-gradient-direction: vertical;
+	background-gradient-start: rgba(255,255,255,0.12);
+	background-gradient-end: rgba(255,255,255,0.06);
+	box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.12);
+	border-radius: 3px;
+}
+.menu-help-button {
+	padding: 2px 5px;
+}
+.menu-help-button:hover {
+	color: white;
+	background-gradient-direction: vertical;
+	background-gradient-start: rgba(255,255,255,0.2);
+	background-gradient-end: rgba(255,255,255,0.08);
+	box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.06);
+	border-radius: 3px;
+}
+.menu-places-box {
+	width: 50px;
+	margin: auto;
+	padding: 10px;
+	border: 0px solid #666;
+}
+.menu-places-button {
+	padding: 10px
+}
+.menu-categories-box {
+	padding: 10px 30px;
+}
+.menu-applications-box {
+	padding: 10px 10px 0px 10px;
+}
+.menu-application-button {
+	padding: 7px;
+}
+.menu-application-button:hover,
+.menu-application-button-selected {
+	padding: 7px;
+	color: white;
+	background-gradient-direction: vertical;
+	background-gradient-start: rgba(255,255,255,0.2);
+	background-gradient-end: rgba(255,255,255,0.08);
+	box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.06);
+	border-radius: 3px;
+}
+.menu-application-button-label:ltr { 
+	padding-left: 5px;
+}
+.menu-application-button-label:rtl { 
+	padding-right: 5px;
+}
+.menu-place-cat-button-label:ltr {
+	padding-top: 4px;
+	padding-left: 5px;
+}
+.menu-place-cat-button-label:rtl {
+	padding-top: 4px;
+	padding-right: 5px;
+}
+.menu-category-button {
+	padding: 7px;
+}
+.menu-category-button-greyed {
+	padding: 7px;
+	color: #9C9C9C;
+	font-style: italic;
+}
+.menu-category-button-selected {
+	padding: 7px;
+	color: white;
+	background-gradient-direction: vertical;
+	background-gradient-start: rgba(255,255,255,0.2);
+	background-gradient-end: rgba(255,255,255,0.08);
+	box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.06);
+	border-radius: 3px;
+	transition-duration: 150;
+}
+.menu-category-button-label:ltr {
+	padding-left: 5px;
+}
+.menu-category-button-label:rtl {
+	padding-right: 5px;
+
+}
+.menu-category-button-button:hover {
+	background-color: #969696;
+	border-radius: 8px;
+}
+/* Name and description of the currently hovered item in the menu
+ * This appears on the bottom right hand corner of the menu*/
+.menu-selected-app-box {
+	padding-right: 30px;
+	padding-left: 28px;
+	text-align: right;
+}
+
+.menu-selected-app-box:rtl {
+	padding-top: 10px;
+	height: 30px;
+}
+
+.menu-selected-app-title {
+	font-weight: bold;
+}
+.menu-selected-app-description {
+	max-width: 150px;
+}
+.menu-search-box:ltr {
+	padding-left: 30px;
+}
+.menu-search-box:rtl {
+	padding-right: 30px;
+}
+
+/* Search input box */
+#menu-search-entry {
+    font-size: 10.5pt;
+    font-weight: bold;
+    width: 37em;
+	height: 1.5em;    
+    color: white;
+    padding: 4px;
+   	border-radius: 3px;
+	selection-background-color: white;
+	selected-color: black;
+	border: 1px solid #333333;
+	transition-duration: 100;
+	background-gradient-direction: vertical;
+	background-gradient-start: rgba(85,85,85,0.2);
+	background-gradient-end: rgba(85,85,85,0.4);
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5);
+}
+#menu-search-entry:focus,
+#menu-search-entry:hover {
+	border: 1px solid #555555;
+	background-gradient-direction: vertical;	
+	background-gradient-start: rgba(85,85,85,0.3);
+	background-gradient-end: rgba(85,85,85,0.5);
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5);
+}
+
+.menu-search-entry-icon {
+	icon-size: 1.2em;
+	color: #8d8f8a;
+}
+/* Context menu (at the moment only for favorites) */
+.menu-context-menu {
+}

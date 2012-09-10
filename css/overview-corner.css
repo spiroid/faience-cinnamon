@@ -1,0 +1,9 @@
+/* ===================================================================
+ * Overview corner
+ * ===================================================================*/
+#overview-corner {
+	background-image: url("../img/overview.png");
+}
+#overview-corner:hover {
+	background-image:	url("../img/overview-hover.png");
+}

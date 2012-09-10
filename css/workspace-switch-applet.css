@@ -1,0 +1,23 @@
+/* ===================================================================
+ * Workspace Switcher applet (workspaceSwitcher.js)
+ * ===================================================================*/
+#workspaceSwitcher {
+	spacing: 0px;
+	padding: 3px;
+	
+}
+.workspace-button {
+	width: 20px;
+	height: 10px;
+	color: #cccccc;
+	border: 1px;
+	border-color: #a6a6a6;
+	padding: 2px;
+	transition-duration: 300;
+}
+.workspace-button:outlined {
+	padding: 1px;
+	background: #cccccc;
+	color: #555555;
+	box-shadow: inset 0px 0px 8px 1px rgba(255,255,255, 0.7);
+}
