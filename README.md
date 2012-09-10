@@ -24,10 +24,12 @@ Licence: GPLv3
 
    * Download and extract the zip file from github and move the extracted directory in the 'Faience' folder inside your ~/.themes directory.  
      **or**  
-     Clone the git repository inside your ~/.themes/Faience directory: 
+     Clone the git repository inside your ~/.themes/Faience directory:  
+     ```shell  
          $ cd ~/.themes/Faience
          $ git clone git://github.com/spiroid/faience-cinnamon.git cinnamon
-
+     ```
+ 
    * Open the Cinnamon Settings application and go to the theme section.
    * Select Faience in the list of available themes.
 
