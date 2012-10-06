@@ -68,12 +68,12 @@
     border-image: url("../img/switcher-separator.svg") 0 0 0 0 stretch;
 }
 .ripple-box {
-    width: 52px;
-    height: 52px;
-    background-image: url("../img/corner-ripple-ltr.png");
+    width: 104px;
+    height: 104px;
+    background-image: url("../img/corner-ripple.png");
 }
 .ripple-box:rtl {
-    background-image: url("../img/corner-ripple-rtl.png");
+    background-image: url("../img/corner-ripple.png");
 }
 .switcher-arrow {
 	border-color: rgba(0,0,0,0);

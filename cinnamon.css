@@ -24,21 +24,25 @@
  * Cinnamon / Gnome shell common Section                               *
  * ################################################################### */
 @import url("css/main.css");
+@import url("css/buttons.css");
 @import url("css/popup-menu.css");
 @import url("css/panel.css");
-@import url("css/buttons.css");
 @import url("css/overview.css");
+@import url("css/view-selector.css");
+@import url("css/looking-glass.css");
 @import url("css/calendar.css");
+@import url("css/notification.css");
+@import url("css/hotplug.css");
 @import url("css/app-switcher.css");
 @import url("css/modal.css");
 @import url("css/run-dialog.css");
+@import url("css/end-session-dialog.css");
+@import url("css/mount-dialog.css");
 @import url("css/polkit-dialog.css");
 @import url("css/magnifier.css");
-@import url("css/looking-glass.css");
-@import url("css/notification.css");
-@import url("css/hotplug.css");
 @import url("css/keyboard.css");
-@import url("css/view-selector.css");
+/* TODO : Is it still used ? */
+@import url("css/status-chooser.css");
 
 /* ################################################################### *
  * Cinnamon Specific Section                                           * 
@@ -46,10 +50,11 @@
 @import url("css/menu.css");
 @import url("css/overview-cinnamon.css");
 /* TODO : style the next items */
+@import url("css/window-list.css");
 @import url("css/sound-applet.css");
 @import url("css/workspace-switch-applet.css");
-@import url("css/notification-applet.css");
-@import url("css/applet.css");
 @import url("css/panel-launchers.css");
-@import url("css/window-list.css");
+@import url("css/applet.css");
 @import url("css/workspace-osd.css");
+@import url("css/notification-applet.css");
+

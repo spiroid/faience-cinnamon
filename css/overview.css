@@ -32,6 +32,8 @@
     box-shadow: inset 0px 0px 5px rgba(0,0,0,0.85);
 }
 
+
+
 /* Normally for the applications selection screen in gnome shell ...
    Is it still used in Cinnamon ? */
 .icon-grid {
@@ -108,6 +110,7 @@ grabbing a window */
 .workspace-thumbnails {
     spacing: 20px;
 }
+
 
 /* Background on the expo / workspace overview screen */
 .expo-background {

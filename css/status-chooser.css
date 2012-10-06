@@ -1,0 +1,41 @@
+/* ===================================================================
+ * Status Chooser
+ * ===================================================================*/
+.status-chooser {
+    spacing: .4em;
+}
+
+.status-chooser .popup-menu-item,
+.status-chooser-combo .popup-menu-item {
+    padding: .4em;
+}
+
+.status-chooser-user-icon {
+    border: 1px solid #5f5f5f;
+    border-radius: 3px;
+    width: 48pt;
+    height: 48pt;
+    padding: 3px; 
+}
+
+.status-chooser-user-icon:hover {
+    border: 1px solid #888;
+    box-shadow: 0px 0px 1px 3px rgba(0,0,0,0.5);
+}
+
+.status-chooser-user-name {
+    font-weight: normal;
+    font-size: 1.3em;
+    min-width: 120pt;
+}
+
+.status-chooser-combo {
+    border-radius: 3px;
+}
+
+.status-chooser-status-item,
+.status-chooser-combo .popup-combobox-item {
+    spacing: .4em;
+}
+
+

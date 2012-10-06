@@ -3,12 +3,10 @@
  * ===================================================================*/
 .applet-box {
 	padding-left: 3px;
-    padding-right: 3px;	
+	padding-right: 3px;
 	color: #ccc;
 	text-shadow: black 0px 0px 2px;
 	transition-duration: 300;
-	min-width: 1em;
-	
 }
 .applet-box:hover {
 	color: #fff;
@@ -24,9 +22,11 @@
 }
 .applet-icon {
 	color: #ccc;
+	icon-size: 22px;
 }
 .applet-icon:hover,
 .applet-box:hover > .applet-icon {
 	color: #fff;
 	icon-shadow: white 0px 0px 3px;
 }
+
